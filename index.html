@@ -13,13 +13,40 @@
       img {
         float: left;
       }
+      ul.linkslist {
+        align-items: center;
+      }
+      li.linkslist a:hover {
+        background-color: #555;
+        color: white;
+      }
+      .navbar1 {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        position: fixed;
+        top: 0%;
+        width: 100%;
+      }
+      li.navbar2 a {
+        float: left;
+        display: block;
+        background-color: rgb(174, 178, 182);
+        width: 60px;
+        padding: 8px 16px;
+      }
+      li.navbar2 a:hover {
+        background-color: #555;
+        color: white;
+      }
     </style>
   </head>
   <body>
     <nav>
-      <ul>
-        <li><a href="#Links">Links</a></li>
-        <li><a href="#Contact">Contact</a></li>
+      <ul class="navbar1">
+        <li class="navbar2"><a href="#">Home</a></li>
+        <li class="navbar2"><a href="#Links">Links</a></li>
+        <li class="navbar2"><a href="#Contact">Contact</a></li>
       </ul>
     </nav>
     <!-- <a href="#Links">Links</a>
@@ -30,39 +57,65 @@
     <br />
     <hr />
     <h2 id="Links">Links</h2>
-    <nav>
-      <ul>
-        <li>
-          <a href="https://snulinks.snu.edu.in/" target="_blank">Snulinks</a>
-        </li>
-        <li>
-          <a
-            href="https://snu.edu.in/sites/default/files/DSW-Student-Handbook.pdf"
-            target="_blank"
-            >Student-Handbook</a
-          >
-        </li>
-        <li>
-          <a
-            href="https://www.notion.so/The-Physics-Resource-Dungeon-5bfe325eebc44bc7b1de7d0bb935e274"
-            target="_blank"
-            >Physics-Resource-Dungeon</a
-          >
-        </li>
-        <li>
-          <a href="https://blackboard.snu.edu.in/" target="_blank"
-            >Blackboard</a
-          >
-        </li>
-        <li>
-          <a
-            href="https://physics.snu.edu.in/sites/default/files/Physics-UG-Prospectus-2019-2020-v1.1.pdf"
-            >Physics-UG-Prospectus</a
-          >
-        </li>
-      </ul>
-    </nav>
-
+    <ul class="linkslist">
+      <li class="linkslist">
+        <a href="https://snulinks.snu.edu.in/" target="_blank">Snulinks</a>
+      </li>
+      <li class="linkslist">
+        <a
+          href="https://snu.edu.in/sites/default/files/DSW-Student-Handbook.pdf"
+          target="_blank"
+          >Student-Handbook</a
+        >
+      </li>
+      <li class="linkslist">
+        <a
+          href="https://www.notion.so/The-Physics-Resource-Dungeon-5bfe325eebc44bc7b1de7d0bb935e274"
+          target="_blank"
+          >Physics-Resource-Dungeon</a
+        >
+      </li>
+      <li class="linkslist">
+        <a href="https://blackboard.snu.edu.in/" target="_blank">Blackboard</a>
+      </li>
+      <li class="linkslist">
+        <a
+          href="https://physics.snu.edu.in/sites/default/files/Physics-UG-Prospectus-2019-2020-v1.1.pdf"
+          target="_blank"
+          >Physics-UG-Prospectus</a
+        >
+      </li>
+      <li class="linkslist">
+        <a href="https://sci-hub.se/" target="_blank">Sci-Hub</a>
+      </li>
+      <li class="linkslist">
+        <a href="http://libgen.st/" target="_blank">Lib-gen</a>
+      </li>
+      <li class="linkslist">
+        <a
+          href="https://webspace.science.uu.nl/~gadda001/goodtheorist/index.html"
+          target="_blank"
+          >How-to-become-a-GOOD-Theoretical-Physicist</a
+        >
+      </li>
+      <li class="linkslist">
+        <a
+          href="https://drive.google.com/drive/folders/1VetIR2AoQb9UmLAkRszZNvIvNy4FE5KE?usp=share_link"
+          target="_blank"
+          >Physics-Dungeon-2.0</a
+        >
+      </li>
+      <li class="linkslist">
+        <a href="https://lc.snu.edu.in/login/#/" target="_blank"
+          >SNU-Lectures</a
+        >
+      </li>
+      <li class="linkslist">
+        <a href="https://snu.myperfectice.com/" target="_blank"
+          >SNU-My-Perfectice</a
+        >
+      </li>
+    </ul>
     <!-- <a href="https://snulinks.snu.edu.in/" target="_blank">Snulinks</a>
     <a
       href="https://snu.edu.in/sites/default/files/DSW-Student-Handbook.pdf"
